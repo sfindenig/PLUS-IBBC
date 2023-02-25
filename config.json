@@ -1,21 +1,21 @@
 {
-    "out_dir" : "../../testoutput/output_pair",
-    "images" : [
-      {"img" : "testimgs/05.tif"},
-      {"img" : "testimgs/06.tif"}
-      ],
-      "roi" : {
-        "x" : 750,
-        "y" : 500,
-        "w" : 750,
-        "h" : 750
-    },
-    "horizontal_margin": 20,
-    "vertical_margin": 5,
-    "tile_size" : 250,
-    "disp_range_method" : "sift",
-    "msk_erosion": 0,
-    "dsm_resolution": 0.5,
-    "3d_filtering_r": 5,
-    "3d_filtering_n": 50
-  }
+  "out_dir" : "testoutput",
+  "images" : [
+    {"img" : "Challenge1_LowRiseBuildings_CROPPED_03APR15WV031000015APR03140238-P1BS-500497283030_01_P001_________AAE_0AAAAABPABR0.tif"},
+    {"img" : "Challenge1_LowRiseBuildings_CROPPED_23OCT15WV031100015OCT23141928-P1BS-500497285030_01_P001_________AAE_0AAAAABPABO0.tif"}
+    ],
+    "roi" : {
+      "x" : 500,
+      "y" : 500,
+      "w" : 2000,
+      "h" : 2000
+  },
+  "horizontal_margin": 150,
+  "vertical_margin": 150,
+  "tile_size" : 250,
+  "disp_range_method" : "sift",
+  "msk_erosion": 0,
+  "dsm_resolution": 0.1,
+  "3d_filtering_r": 10,
+  "3d_filtering_n": 25
+}
